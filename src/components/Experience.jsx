@@ -65,7 +65,7 @@ export const Experience = () => {
         <boxGeometry args={[7.5, 2, 2]} />
         <meshBasicMaterial color="orange" transparent opacity="0.5"></meshBasicMaterial>
       </mesh>
-      <Text font="fonts/Poppins-Black.ttf"
+      <Text font="fonts/NotoSerifSC-Black.otf"
         position-x={-1.3}
         position-y={-0.5}
         position-z={1}
@@ -73,7 +73,7 @@ export const Experience = () => {
         textAlign={"center"}
         rotation-y={degToRad(30)}
         anchorY={"bottom"}>
-        MY LITTLE {"\n"}CAMPING
+        我的 {"\n"}露营地
         <meshBasicMaterial color={bloomColor} toneMapped={false} ref={textMaterial}>
           <RenderTexture attach="map">
             <color attach="background" args={["#fff"]} />
@@ -118,4 +118,4 @@ export const Experience = () => {
   );
 };
 
-useFont.preload("fonts/Poppins-Black.ttf")
+useFont.preload("fonts/NotoSerifSC-Black.otf")

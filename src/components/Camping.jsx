@@ -197,8 +197,8 @@ export function Camping({ html, ...props }) {
                             position-x={1.2}
                             position-z={1.2}
                             position-y={-0.1}
-                            title={"Tent"}
-                            description={"2 person tent, rest assured you'll be dry."}
+                            title={"双人帐篷"}
+                            description={"放心，你会保持干燥。"}
                             price={"129.99"}
                             bgColor={"bg-yellow-500"}
                             className={"transition delay-1000"}
@@ -604,8 +604,8 @@ export function Camping({ html, ...props }) {
                             position-y={0.44}
                             position-z={0.2}
                             rotation-y={degToRad(20)}
-                            title={"Backpack"}
-                            description={"Ideal for camping and storing your belongings."}
+                            title={"背包"}
+                            description={"在露营时存放私人物品。"}
                             price={"49.99"}
                             bgColor={"bg-green-500"}
                             className={"transition delay-300"}
@@ -1138,8 +1138,8 @@ export function Camping({ html, ...props }) {
                             position-y={-0.2}
                             position-z={0.25}
                             rotation-x={-degToRad(20)}
-                            title={"Lantern"}
-                            description={"Story time is always better with a lantern."}
+                            title={"提灯"}
+                            description={"总有一盏灯在聆听好的故事。"}
                             price={"39.99"}
                             bgColor={"bg-orange-500"}
                         />
@@ -1344,8 +1344,8 @@ export function Camping({ html, ...props }) {
                             position-y={0.25}
                             position-z={-0.14}
                             rotation-x={-degToRad(30)}
-                            title={"Sleeping Bag"}
-                            description={"Keeps you warm and comfortable."}
+                            title={"睡袋"}
+                            description={"温暖且舒适。"}
                             price={"79.99"}
                             bgColor={"bg-blue-500"}
                             className="transition delay-700"
